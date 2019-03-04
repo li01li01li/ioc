@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.IoC;
 
 import junit.framework.TestCase;
 import org.apache.wicket.util.tester.WicketTester;

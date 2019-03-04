@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.IoC;
 
 import org.mortbay.jetty.Connector;
 import org.mortbay.jetty.Server;

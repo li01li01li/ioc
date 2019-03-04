@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.IoC;
 
 import org.apache.wicket.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;

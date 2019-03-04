@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--定义bean-->
+    <bean id="messageServiceImpl" class="com.spring.IoC.HelloWorld.MessageServiceImpl">
+        <constructor-arg name="username" value="li"></constructor-arg>
+        <constructor-arg name="age" value="21"></constructor-arg>
+    </bean>
+    <bean id="messagePrinter" class="com.spring.IoC.HelloWorld.MessagePrinter">
+        <constructor-arg name="service" ref="messageServiceImpl"></constructor-arg>
+    </bean>
+
+</beans>
