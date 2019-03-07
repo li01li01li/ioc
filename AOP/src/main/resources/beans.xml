@@ -91,7 +91,7 @@
     </bean>-->
     <bean id="hello" class="com.spring.aop.moveproxy.HelloImpl"/>
         <!--配置一个MyBeforeAdvice前置增强的bean-->
-        <bean id="mybeforeadvice" class="com.spring.aop.moveproxy.MyBeforeAdvice"/>
+        <bean id="myBeforeAdvicee" class="com.spring.aop.moveproxy.MyBeforeAdvice"/>
     <aop:config>
              <aop:aspect id="before" ref="myBeforeAdvice">
                  <aop:pointcut id="myPointCut" expression="(* com.spring.aop.*.*(..))"/>
