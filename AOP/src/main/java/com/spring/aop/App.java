@@ -1,4 +1,4 @@
-package com.spring.IoC.quickstart;
+package com.spring.aop;
 
 /**
  * Hello world!
