@@ -9,8 +9,8 @@ public class HelloApp {
     public static void main(String[] args) {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("beans.xml");
-        Hello hello=context.getBean(Hello.class);
-        System.out.println(hello.getHello());
+        Hello hello =context.getBean(Hello.class);
+        System.out.println(hello.hello());
     }
 
 }

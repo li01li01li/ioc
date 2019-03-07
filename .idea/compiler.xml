@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AOP" />
         <module name="IoC" />
+        <module name="jianshu" />
         <module name="quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IoC" target="1.5" />
+      <module name="AOP" target="1.8" />
+      <module name="IoC" target="1.7" />
+      <module name="jianshu" target="1.7" />
       <module name="quickstart" target="1.8" />
+      <module name="qwe" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
